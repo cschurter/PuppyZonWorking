@@ -1,0 +1,130 @@
+<!--Index.html-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>PuppyZon</title>
+
+    <!--Bootstrap-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    <!--Leaflet css -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.4.0/dist/leaflet.css"
+        integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
+        crossorigin="" />
+    <!-- Leaflet's JS -->
+    <!-- Make sure you put this AFTER Leaflet's CSS -->
+    <script src="https://unpkg.com/leaflet@1.4.0/dist/leaflet.js"
+        integrity="sha512-QVftwZFqvtRNi0ZyCtsznlKSWOStnDORoefr1enyq5mVL4tmKB3S/EnC3rRJcxCPavG10IcrVGSmPh6Qw5lwrg=="
+        crossorigin=""></script>
+
+
+    <link rel="stylesheet" type="text/css" media="screen" href="../static/css/style.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="../static/css/test.css">
+
+
+    <!--Bootstrap-->
+
+    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"> -->
+
+    <!--Check if browser supports file uploads-->
+    <!-- <script>
+            if (window.File && window.FileReader && window.FileList && window.Blob) {
+            alert("File API supported.!");
+            } else {
+            alert("The File APIs are not fully supported in this browser.");
+            }
+            </script> -->
+
+    <!--plotly-->
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+
+    <script src="https://d3js.org/d3.v5.min.js"></script>
+</head>
+
+<body>
+     <!-- NAVBAR
+    =================== -->
+    <div class="navbar-wrapper">
+        <!-- Wrap the .navbar in .container to center it within the absolutely positioned parent. -->
+        <div class="container">
+            <div class="navbar navbar-inverse">
+                <div class="navbar-inner">
+                    <!-- <a class="brand" href="index.html">Puppyzon!</a> -->
+                    <a class="navbar-brand" href="#">
+                        <span><img src="../static/images/fat_dog.png" width="95" height="50"
+                                background-color="transparent" id="logo">Puppyzon!
+                        </span>
+                    </a>
+                    <br>
+                    <!-- Responsive Navbar Part 1: Button for triggering responsive navbar (not covered in tutorial). Include responsive CSS to utilize. -->
+                    <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <!-- Responsive Navbar Part 2: Place all navbar contents you want collapsed withing .navbar-collapse.collapse. -->
+                    <div class="nav-collapse collapse">
+                        <ul class="nav">
+                            <li class="active" id="menu-items"><a href="index.html" id="menu-items">Home</a></li>
+                            <li id="menu-items"><a href="challenges.html" id="menu-items">Challenges</a></li>
+                            <li id="menu-items"><a href="process.html" id="menu-items">Our Process</a></li>
+                            <!-- <li><a href="#upload_header"></a>Our App</li> -->
+                            <!-- Read about Bootstrap dropdowns at http://twitter.github.com/bootstrap/javascript.html#dropdowns -->
+                            <!-- <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b
+                                        class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="#">Action</a></li>
+                                    <li><a href="#">Another action</a></li>
+                                    <li><a href="#">Something else here</a></li>
+                                    <li class="divider"></li>
+                                    <li class="nav-header">Nav header</li>
+                                    <li><a href="#">Separated link</a></li>
+                                    <li><a href="#">One more separated link</a></li>
+                                </ul>
+                            </li> -->
+                        </ul>
+                    </div>
+                    <!--/.nav-collapse -->
+                </div><!-- /.navbar-inner -->
+            </div><!-- /.navbar -->
+
+        </div> <!-- /.container -->
+    </div><!-- /.navbar-wrapper -->
+    <div class="jumbotron text-center">
+            <h1 class="display-4 text-center" id="Jumbo_welcome">Challenges</h1>
+            <p class="lead" id="Jumbo-description">Issues we faced and features to be added</p>
+        </div>
+    <div class="container">
+        <div class = "row">
+            <div class="col-md-6">
+              <h1> Challenges </h1>
+              <ul> 
+                <li> Some of the challenges we faced were just trying to get certain maps and parts of our website to display correctly.</li>
+                <li> The API updated from v1 to v2 during the project. This caused a few problems.</li>
+                <li> Could not deploy to heroku since heroku will time out after 5 seconds. Our app takes longer than that to finish its processes.</li>
+                <li> </li>
+              </ul>
+            </div>
+            <div class="col-md-6">
+                <h1> Features in the Future</h1>
+                <ul>
+                    <li>Going to add a better learning model that can work better with cats and create fewer incorrect identities.</li>
+                    <li>More maps and displays, and probably better ways to display information</li>
+                    <li>Make website more dynamic and interactive</li>
+                    <li>Add a user input section, so users don't have to submit an image to search Petfinder.</li>
+                </ul>
+            </div>
+            </div> <!-- End of Text body-->
+        </div> <!-- End of Row Body -->
+    </div>
+</body>
+</html>
