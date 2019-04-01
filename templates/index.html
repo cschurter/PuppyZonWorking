@@ -1,0 +1,324 @@
+<!--Index.html-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>PuppyZon</title>
+
+    <!--Bootstrap-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    <!--Leaflet css -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.4.0/dist/leaflet.css"
+        integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
+        crossorigin="" />
+    <!-- Leaflet's JS -->
+    <!-- Make sure you put this AFTER Leaflet's CSS -->
+    <script src="https://unpkg.com/leaflet@1.4.0/dist/leaflet.js"
+        integrity="sha512-QVftwZFqvtRNi0ZyCtsznlKSWOStnDORoefr1enyq5mVL4tmKB3S/EnC3rRJcxCPavG10IcrVGSmPh6Qw5lwrg=="
+        crossorigin=""></script>
+
+
+    <link rel="stylesheet" type="text/css" media="screen" href="../static/css/style.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="../static/css/test.css">
+
+
+    <!--Bootstrap-->
+
+    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"> -->
+
+    <!--Check if browser supports file uploads-->
+    <!-- <script>
+            if (window.File && window.FileReader && window.FileList && window.Blob) {
+            alert("File API supported.!");
+            } else {
+            alert("The File APIs are not fully supported in this browser.");
+            }
+            </script> -->
+
+    <!--plotly-->
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+
+    <script src="https://d3js.org/d3.v5.min.js"></script>
+</head>
+
+<body>
+    <!-- NAVBAR
+    =================== -->
+    <!-- NAVBAR
+    =================== -->
+    <div class="navbar-wrapper">
+        <!-- Wrap the .navbar in .container to center it within the absolutely positioned parent. -->
+        <div class="container">
+            <div class="navbar navbar-inverse">
+                <div class="navbar-inner">
+                    <!-- <a class="brand" href="index.html">Puppyzon!</a> -->
+                    <a class="navbar-brand" href="#">
+                        <span><img src="../static/images/fat_dog.png" width="95" height="50"
+                                background-color="transparent" id="logo">Puppyzon!
+                        </span>
+                    </a>
+                    <br>
+                    <!-- Responsive Navbar Part 1: Button for triggering responsive navbar (not covered in tutorial). Include responsive CSS to utilize. -->
+                    <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <!-- Responsive Navbar Part 2: Place all navbar contents you want collapsed withing .navbar-collapse.collapse. -->
+                    <div class="nav-collapse collapse">
+                        <ul class="nav">
+                            <li class="active" id="menu-items"><a href="index.html" id="menu-items">Home</a></li>
+                            <li id="menu-items"><a href="challenges.html" id="menu-items">Challenges</a></li>
+                            <li id="menu-items"><a href="process.html" id="menu-items">Our Process</a></li>
+                            <!-- <li><a href="#upload_header"></a>Our App</li> -->
+                            <!-- Read about Bootstrap dropdowns at http://twitter.github.com/bootstrap/javascript.html#dropdowns -->
+                            <!-- <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b
+                                        class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="#">Action</a></li>
+                                    <li><a href="#">Another action</a></li>
+                                    <li><a href="#">Something else here</a></li>
+                                    <li class="divider"></li>
+                                    <li class="nav-header">Nav header</li>
+                                    <li><a href="#">Separated link</a></li>
+                                    <li><a href="#">One more separated link</a></li>
+                                </ul>
+                            </li> -->
+                        </ul>
+                    </div>
+                    <!--/.nav-collapse -->
+                </div><!-- /.navbar-inner -->
+            </div><!-- /.navbar -->
+
+        </div> <!-- /.container -->
+    </div><!-- /.navbar-wrapper -->
+
+
+
+    <!-- Carousel
+      ================================================== -->
+    <div id="myCarousel" class="carousel slide">
+        <div class="carousel-inner">
+            <div class="item active">
+                <img src="../static/images/French_bulldog3.jpg" class="text-center" id="Frenchy">
+                <div class="container">
+                    <div class="carousel-caption">
+                        <h1>Find Your Furry Friend Today!</h1>
+                        <p class="lead">Upload a picture of an animal you love, and we can find a similar, adoptable
+                            furry friend for you.</p>
+                        <a class="btn btn-large btn-primary" href="#upload_header">Try it now!</a>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <img src="../static/images/Ragdoll1.jpg" class="text-center" alt="" id="Rag">
+                <div class="container">
+                    <div class="carousel-caption">
+                        <h1>Want to know how this was made?</h1>
+                        <p class="lead"> Our team worked tirelessly to bring this project to fruition. If you want to
+                            see exactly what we did then click here!</p>
+                        <a class="btn btn-large btn-primary" href="process.html">Learn more</a>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <img src="../static/images/Doberman2.jpg" class="text-center" alt="" id="Doby">
+                <div class="container">
+                    <div class="carousel-caption">
+                        <h1>Future of Puppyzon</h1>
+                        <p class="lead"> Want to know what we have planned for the future? Click here to find out what
+                            we have planned for the future!</p>
+                        <a class="btn btn-large btn-primary" href="templates/challenges.html">Browse gallery</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <a class="left carousel-control" href="#myCarousel" data-slide="prev">‹</a>
+        <a class="right carousel-control" href="#myCarousel" data-slide="next">›</a>
+    </div><!-- /.carousel -->
+
+    <!-- </div>/.container -->
+    <!--Container-->
+    <div class="container">
+        <div class="row" id="title_row">
+            <div class='col-md-12 text-center'>
+                <div class="card1">
+                    <h1 id="homepage_title">Try Our App And Find A Pet Near You!</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
+    <div class="container">
+
+        <div class="row">
+            <!--User input-->
+            <div id="fileUpload" class="col-md-6">
+                <div class="card2">
+
+                    <!-- <label>Upload image of pet </label> -->
+
+
+                    <h1 id="upload_header">Upload image of pet</h1>
+                    <br>
+                    <form method=post enctype=multipart/form-data> <p><input type=file name=file>
+                        <input type=submit value=Upload>
+                    </form>
+
+                    <!-- <input type="file" id="file" name="name" style="display:none" />
+                    <button type="button" id="browse" class="btn btn-primary">Browse</button>
+                    <span id="custom-text">No file chosen</span> -->
+                </div>
+            </div>
+            <!-- <div class="col-md-6">
+                <br><br>
+                <img id="uploadedImg" />
+            </div> -->
+        </div>
+        <!-- <button type="button" class="btn btn-success">Upload</button> -->
+        <!-- <br><br> -->
+        <!-- <div class="row">
+            <label id="labelOR" align="center"> OR </label>
+        </div>
+        <br><br> -->
+        <!-- <div class="row">
+            <div class="card3">
+                <div class="col-md-4">
+                    <label id="labelText">Enter Animal Type</label>
+                    <input type="text" id="animalType" name="animalType">
+                  
+                </div>
+                <div class="col-md-6">
+                    <label id="labelText">Enter Breed (Optional)</label>
+                    <input type="text" id="BreedName" name="BreedName"><br>
+                 
+                </div>
+            
+
+
+            </div>
+        </div>
+        <br>
+        <br> -->
+        <!-- <label>Zipcode</label>
+        <input type="text" id="zipcode" name="zip"> -->
+        <br>
+        <!-- <br> -->
+        <!--<button type="button" class="btn btn-success">Find my Pet!</button>-->
+
+<!-- <a class="btn btn-success btn-small" id="FindPet" role="button">Find my Pet!</a> -->
+
+
+        <br><br><br>
+
+        <h2>Pets Found of Type {{ breed }}</h2>
+
+        <div id="map"></div>
+        <!-- <div id="mapid"></div> -->
+
+        <!--Div to hold table results-->
+
+        <div id="table-data"></div>
+
+
+        <!--Placeholder for map-->
+        <!-- <div id="map">
+            +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+            <br>
+            +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+            <br>
+            ++++++++++++++++++IMAGINE A MAP HERE++++++++++++++++++++++++++
+            <br>
+            +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+            <br>
+            +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+            <br>
+        </div>
+        <br><br><br> -->
+
+        <!--Placeholder for results-->
+        <!-- <table border="0" class="table table-striped">
+            <thead>
+                <tr>
+                    <th>Photo</th>
+                    <th>Age</th>
+                    <th>Primary Breed</th>
+                    <th>Mixed Breed</th>
+                    <th>Location</th>
+                    <th>Gender</th>
+                    <th>Size</th>
+                    <th>Type</th>
+                    <th>Listing</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                {% for item in listings_list %}
+                <tr>
+                    <td><img alt="pet"></td> 
+                    <td>{{ item.age }} </td>
+                    <td>{{ item.primary_breed }}</td>
+                    <td>{{ item.mixed_breed }}</td>
+                    <td>{{ item.city }}, {{ item.state }}</td>
+                    <td>{{ item.gender }}</td>
+                    <td>{{ item.size }}</td>
+                    <td>{{ item.type }}</td>
+                    <td><a href="{{ item.url }}" target="_blank">Go to listing</a></td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table> -->
+
+
+
+    </div>
+
+
+
+    <!--JS-->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+
+    <!--- <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.11.0/d3.js"></script> -->
+
+    <!--embed the breed found by the image upload ML routine app.upload_file-->
+    <!--https://www.tutorialspoint.com/flask/flask_templates.htm-->
+    <script type='text/javascript'>
+        var breed = "{{ breed }}";
+    </script>
+
+    <!--Table data display-->
+    <!-- <script src="{{ url_for('static', filename='js/sample.js') }}"></script> -->
+    <script src="{{ url_for('static', filename='js/ResultsListingsTable.js') }}"></script>
+
+    <!--map display-->
+    <script src="{{ url_for('static', filename='js/config.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/map.js') }}"></script>
+    <!-- <script src="{{ url_for('static', filename='js/map_leaflet.js') }}"></script> -->
+
+    <!-- <script type='text/javascript' src='../static/js/sample.js'></script>
+    <script type='text/javascript' src='../static/js/ResultsListingsTable.js'></script> -->
+
+    <!--map display-->
+    <!-- <script type='text/javascript' src='../static/js/config.js'></script>
+    <script type='text/javascript' src='../static/js/map.js'></script> -->
+
+</body>
+
+</html>

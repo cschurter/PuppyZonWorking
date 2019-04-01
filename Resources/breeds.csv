@@ -1,0 +1,325 @@
+breed_name,type
+Abyssinian,cat
+American Bobtail,cat
+American Curl,cat
+American Shorthair,cat
+American Wirehair,cat
+Applehead Siamese,cat
+Balinese,cat
+Bengal,cat
+Birman,cat
+Bombay,cat
+British Shorthair,cat
+Burmese,cat
+Burmilla,cat
+Calico,cat
+Canadian Hairless,cat
+Chartreux,cat
+Chausie,cat
+Chinchilla,cat
+Cornish Rex,cat
+Cymric,cat
+Devon Rex,cat
+Dilute Calico,cat
+Dilute Tortoiseshell,cat
+Domestic Long Hair,cat
+Domestic Medium Hair,cat
+Domestic Short Hair,cat
+Egyptian Mau,cat
+Exotic Shorthair,cat
+Extra-Toes Cat / Hemingway Polydactyl,cat
+Havana,cat
+Himalayan,cat
+Japanese Bobtail,cat
+Javanese,cat
+Korat,cat
+LaPerm,cat
+Maine Coon,cat
+Manx,cat
+Munchkin,cat
+Nebelung,cat
+Norwegian Forest Cat,cat
+Ocicat,cat
+Oriental Long Hair,cat
+Oriental Short Hair,cat
+Oriental Tabby,cat
+Persian,cat
+Pixiebob,cat
+Ragamuffin,cat
+Ragdoll,cat
+Russian Blue,cat
+Scottish Fold,cat
+Selkirk Rex,cat
+Siamese,cat
+Siberian,cat
+Silver,cat
+Singapura,cat
+Snowshoe,cat
+Somali,cat
+Sphynx / Hairless Cat,cat
+Tabby,cat
+Tiger,cat
+Tonkinese,cat
+Torbie,cat
+Tortoiseshell,cat
+Turkish Angora,cat
+Turkish Van,cat
+Tuxedo,cat
+York Chocolate,cat
+Affenpinscher,dog
+Afghan Hound,dog
+Airedale Terrier,dog
+Akbash,dog
+Akita,dog
+Alaskan Malamute,dog
+American Bulldog,dog
+American Eskimo Dog,dog
+American Foxhound,dog
+American Hairless Terrier,dog
+American Staffordshire Terrier,dog
+American Water Spaniel,dog
+Anatolian Shepherd,dog
+Appenzell Mountain Dog,dog
+Australian Cattle Dog / Blue Heeler,dog
+Australian Kelpie,dog
+Australian Shepherd,dog
+Australian Terrier,dog
+Basenji,dog
+Basset Hound,dog
+Beagle,dog
+Bearded Collie,dog
+Beauceron,dog
+Bedlington Terrier,dog
+Belgian Shepherd / Laekenois,dog
+Belgian Shepherd / Malinois,dog
+Belgian Shepherd / Sheepdog,dog
+Belgian Shepherd / Tervuren,dog
+Bernese Mountain Dog,dog
+Bichon Frise,dog
+Black and Tan Coonhound,dog
+Black Labrador Retriever,dog
+Black Mouth Cur,dog
+Black Russian Terrier,dog
+Bloodhound,dog
+Blue Lacy,dog
+Bluetick Coonhound,dog
+Boerboel,dog
+Bolognese,dog
+Border Collie,dog
+Border Terrier,dog
+Borzoi,dog
+Boston Terrier,dog
+Bouvier des Flandres,dog
+Boxer,dog
+Boykin Spaniel,dog
+Briard,dog
+Brittany Spaniel,dog
+Brussels Griffon,dog
+Bull Terrier,dog
+Bullmastiff,dog
+Cairn Terrier,dog
+Canaan Dog,dog
+Cane Corso,dog
+Cardigan Welsh Corgi,dog
+Carolina Dog,dog
+Catahoula Leopard Dog,dog
+Cattle Dog,dog
+Caucasian Sheepdog / Caucasian Ovtcharka,dog
+Cavalier King Charles Spaniel,dog
+Chesapeake Bay Retriever,dog
+Chihuahua,dog
+Chinese Crested Dog,dog
+Chinese Foo Dog,dog
+Chinook,dog
+Chocolate Labrador Retriever,dog
+Chow Chow,dog
+Cirneco dell'Etna,dog
+Clumber Spaniel,dog
+Cockapoo,dog
+Cocker Spaniel,dog
+Collie,dog
+Coonhound,dog
+Corgi,dog
+Coton de Tulear,dog
+Curly-Coated Retriever,dog
+Dachshund,dog
+Dalmatian,dog
+Dandie Dinmont Terrier,dog
+Doberman Pinscher,dog
+Dogo Argentino,dog
+Dogue de Bordeaux,dog
+Dutch Shepherd,dog
+English Bulldog,dog
+English Cocker Spaniel,dog
+English Coonhound,dog
+English Foxhound,dog
+English Pointer,dog
+English Setter,dog
+English Shepherd,dog
+English Springer Spaniel,dog
+English Toy Spaniel,dog
+Entlebucher,dog
+Eskimo Dog,dog
+Feist,dog
+Field Spaniel,dog
+Fila Brasileiro,dog
+Finnish Lapphund,dog
+Finnish Spitz,dog
+Flat-Coated Retriever,dog
+Fox Terrier,dog
+Foxhound,dog
+French Bulldog,dog
+Galgo Spanish Greyhound,dog
+German Pinscher,dog
+German Shepherd Dog,dog
+German Shorthaired Pointer,dog
+German Spitz,dog
+German Wirehaired Pointer,dog
+Giant Schnauzer,dog
+Glen of Imaal Terrier,dog
+Golden Retriever,dog
+Gordon Setter,dog
+Great Dane,dog
+Great Pyrenees,dog
+Greater Swiss Mountain Dog,dog
+Greyhound,dog
+Hamiltonstovare,dog
+Harrier,dog
+Havanese,dog
+Hound,dog
+Hovawart,dog
+Husky,dog
+Ibizan Hound,dog
+Icelandic Sheepdog,dog
+Illyrian Sheepdog,dog
+Irish Setter,dog
+Irish Terrier,dog
+Irish Water Spaniel,dog
+Irish Wolfhound,dog
+Italian Greyhound,dog
+Jack Russell Terrier,dog
+Japanese Chin,dog
+Jindo,dog
+Kai Dog,dog
+Karelian Bear Dog,dog
+Keeshond,dog
+Kerry Blue Terrier,dog
+Kishu,dog
+Klee Kai,dog
+Komondor,dog
+Kuvasz,dog
+Kyi Leo,dog
+Labrador Retriever,dog
+Lakeland Terrier,dog
+Lancashire Heeler,dog
+Leonberger,dog
+Lhasa Apso,dog
+Lowchen,dog
+Maltese,dog
+Manchester Terrier,dog
+Maremma Sheepdog,dog
+Mastiff,dog
+McNab,dog
+Miniature Bull Terrier,dog
+Miniature Dachshund,dog
+Miniature Pinscher,dog
+Miniature Poodle,dog
+Miniature Schnauzer,dog
+Mixed Breed,dog
+Mountain Cur,dog
+Mountain Dog,dog
+Munsterlander,dog
+Neapolitan Mastiff,dog
+New Guinea Singing Dog,dog
+Newfoundland Dog,dog
+Norfolk Terrier,dog
+Norwegian Buhund,dog
+Norwegian Elkhound,dog
+Norwegian Lundehund,dog
+Norwich Terrier,dog
+Nova Scotia Duck Tolling Retriever,dog
+Old English Sheepdog,dog
+Otterhound,dog
+Papillon,dog
+Parson Russell Terrier,dog
+Patterdale Terrier / Fell Terrier,dog
+Pekingese,dog
+Pembroke Welsh Corgi,dog
+Peruvian Inca Orchid,dog
+Petit Basset Griffon Vendeen,dog
+Pharaoh Hound,dog
+Pit Bull Terrier,dog
+Plott Hound,dog
+Pointer,dog
+Polish Lowland Sheepdog,dog
+Pomeranian,dog
+Poodle,dog
+Portuguese Podengo,dog
+Portuguese Water Dog,dog
+Presa Canario,dog
+Pug,dog
+Puli,dog
+Pumi,dog
+Pyrenean Shepherd,dog
+Rat Terrier,dog
+Redbone Coonhound,dog
+Retriever,dog
+Rhodesian Ridgeback,dog
+Rottweiler,dog
+Rough Collie,dog
+Saint Bernard,dog
+Saluki,dog
+Samoyed,dog
+Sarplaninac,dog
+Schipperke,dog
+Schnauzer,dog
+Scottish Deerhound,dog
+Scottish Terrier,dog
+Sealyham Terrier,dog
+Setter,dog
+Shar-Pei,dog
+Sheep Dog,dog
+Shepherd,dog
+Shetland Sheepdog / Sheltie,dog
+Shiba Inu,dog
+Shih Tzu,dog
+Siberian Husky,dog
+Silky Terrier,dog
+Skye Terrier,dog
+Sloughi,dog
+Smooth Collie,dog
+Smooth Fox Terrier,dog
+South Russian Ovtcharka,dog
+Spaniel,dog
+Spanish Water Dog,dog
+Spinone Italiano,dog
+Spitz,dog
+Staffordshire Bull Terrier,dog
+Standard Poodle,dog
+Standard Schnauzer,dog
+Sussex Spaniel,dog
+Swedish Vallhund,dog
+Terrier,dog
+Thai Ridgeback,dog
+Tibetan Mastiff,dog
+Tibetan Spaniel,dog
+Tibetan Terrier,dog
+Tosa Inu,dog
+Toy Fox Terrier,dog
+Toy Manchester Terrier,dog
+Treeing Walker Coonhound,dog
+Vizsla,dog
+Weimaraner,dog
+Welsh Springer Spaniel,dog
+Welsh Terrier,dog
+West Highland White Terrier / Westie,dog
+Wheaten Terrier,dog
+Whippet,dog
+White German Shepherd,dog
+Wire Fox Terrier,dog
+Wirehaired Dachshund,dog
+Wirehaired Pointing Griffon,dog
+Wirehaired Terrier,dog
+Xoloitzcuintli / Mexican Hairless,dog
+Yellow Labrador Retriever,dog
+Yorkshire Terrier,dog
