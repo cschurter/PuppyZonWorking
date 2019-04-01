@@ -1,10 +1,11 @@
 /* CSS stylesheet */
 h1 {
   font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
-  color:blue;
+  color:black;
   font-size: 28px;
   /* align-items: center; */
   text-align: center;
+  font-weight:500;
 }
 
 #homepage_title{
@@ -25,10 +26,50 @@ h1 {
   /* align-items: center; */
   text-align: center;
 }
-/* 
-.jumbotron{
-  color: blue;
-} */
+.jumbotron {
+  margin-bottom: 0px;
+  background-image: url('../images/sad_puppy.jpg');
+  /* background-image: url(https://media.istockphoto.com/photos/programming-code-abstract-technology-background-of-software-deve-picture-id629285904?k=6&m=629285904&s=612x612&w=0&h=GbdupQECY8IAzSkFu5fZuXV7angui0S3j64KRS2Ed6M=); */
+  /* background-image: url(https://cdn-images-1.medium.com/max/1200/1*t85v4n8AFkw3N3MFIgLNNw.jpeg); */
+  /* background-image: url(http://www.cottagesonmountaincreek.com/wp-content/uploads/2015/12/bright-road-1080x675.jpg); */
+  background-position: 0% 40%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: Georgia, serif;
+  min-height:300px;
+}
+
+#jumbo_process{
+  margin-bottom: 0px;
+  background-image: url('../images/business_dog.jpg');
+  /* background-image: url(https://media.istockphoto.com/photos/programming-code-abstract-technology-background-of-software-deve-picture-id629285904?k=6&m=629285904&s=612x612&w=0&h=GbdupQECY8IAzSkFu5fZuXV7angui0S3j64KRS2Ed6M=); */
+  /* background-image: url(https://cdn-images-1.medium.com/max/1200/1*t85v4n8AFkw3N3MFIgLNNw.jpeg); */
+  /* background-image: url(http://www.cottagesonmountaincreek.com/wp-content/uploads/2015/12/bright-road-1080x675.jpg); */
+  background-position: 0% 40%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: Georgia, serif;
+  min-height:300px;
+}
+
+#Jumbo-text{
+  color: white;
+  text-shadow: -1px 0 black, 0 2px black, 2px 0 black, 0 -1px black;
+  letter-spacing: 1px;
+  word-spacing: .5px;
+}
+
+#Jumbo-description{
+  color:white;
+  font-style: italic;
+  text-shadow: -1px 0 grey, 0 1px grey, 1px 0 grey, 0 -1px grey;
+}
+
+#Jumbo_welcome{
+  color: white;
+  font-style: bold;
+  text-shadow: 3px 0 black, 0 2px black, 2px 0 black, 0 2px black;
+}
 
 .textarea{
 size: 10px;
