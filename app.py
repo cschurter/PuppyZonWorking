@@ -95,6 +95,21 @@ def listings():
     return jsonify(listings)
 
 
+
+@app.route("/challenges")
+def challenges():
+    """Return challenges page"""
+    return render_template("challenges.html")
+
+
+
+@app.route("/process")
+def process():
+    """Return process page"""
+    return render_template("process.html")
+
+
+
 if __name__ == "__main__":
     app.run(debug=True)
 
